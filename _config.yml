@@ -1,0 +1,47 @@
+title: "XieQuan's Blog"
+email: i@xiequan.info
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/favicon.png'
+favicon: 'assets/images/favicon.png'
+author: xiequan
+paginate: 30
+#disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+#ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  xiequan:
+    name: Xiequan
+    display_name: Xiequan
+    avatar: 'assets/images/favicon.png'
+    email: i@xiequan.info
+    web: https://xiequan.info
+    twitter: https://twitter.com/quan_xie
+    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+# Social
+social:
+  # instagram: https://www.instagram.com/bootstrapstarter/
+  # facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  twitter: https://twitter.com/quan_xie
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
