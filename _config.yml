@@ -4,7 +4,7 @@ timezone: Asia/Shanghai
 baseurl: ""
 permalink: "/:title"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.png'
+favicon: 'assets/images/logo.png'
 author: xiequan
 paginate: 30
 #disqus: 'demowebsite'
