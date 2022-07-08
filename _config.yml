@@ -3,7 +3,7 @@ email: i@xiequan.info
 timezone: Asia/Shanghai
 baseurl: ""
 permalink: "/:title"
-logo: 'assets/images/favicon.png'
+logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 author: xiequan
 paginate: 30
