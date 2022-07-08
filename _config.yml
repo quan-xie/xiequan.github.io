@@ -1,48 +1,30 @@
-title: "XieQuan's Blog"
-email: i@xiequan.info
-timezone: Asia/Shanghai
-baseurl: ""
-permalink: "/:title"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-author: xiequan
-paginate: 30
-#disqus: 'demowebsite'
-locale: en_us
-lang: en_us
-feed_items: 10
-feed_update_period: daily
-feed_update_frequency: 1
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-sass:
-  sass_dir: _sass
-  style: compressed
+# Site Build Settings
+
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           'XieQuan'
+description:	       'Write about life and think about life'
+author:              'xiequan'
 
 
-# Authors
-authors:
-  xiequan:
-    name: Xiequan
-    display_name: Xiequan
-    avatar: 'assets/images/favicon.png'
-    email: i@xiequan.info
-    web: https://xiequan.info
-    twitter: https://twitter.com/quan_xie
-    description: ""
-# Social
-social:
-  # instagram: https://www.instagram.com/bootstrapstarter/
-  # facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  github: https://github.com/quan-xie
-  twitter: https://twitter.com/quan_xie
-
-# Plugins
-plugins: 
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-archives
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
