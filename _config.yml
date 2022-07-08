@@ -1,8 +1,8 @@
 title: "XieQuan's Blog"
 email: i@xiequan.info
-timezone: UTC
+timezone: Asia/Shanghai
 baseurl: ""
-permalink: "/:title/"
+permalink: "/:title"
 logo: 'assets/images/favicon.png'
 favicon: 'assets/images/favicon.png'
 author: xiequan
