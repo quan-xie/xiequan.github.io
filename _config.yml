@@ -20,9 +20,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'XieQuan'
-description:	       'Write about life and think about life'
-author:              'xiequan'
+title:		           '谢权’s blog'
+description:	       '记录生活,思考人生！'
+author:              '谢权'
 
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
