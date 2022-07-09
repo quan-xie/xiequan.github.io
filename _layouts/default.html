@@ -75,9 +75,7 @@
         <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     </a>  
    
-{% if site.adsense == "enabled" %}
-    {% include adsense-under-header.html %}
-{% endif %}
+
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
@@ -86,6 +84,9 @@
         </p>
     {% endif %}
 
+{% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+{% endif %}
     <!-- Content
     ================================================== -->
     <div class="main-content">
