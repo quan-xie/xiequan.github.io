@@ -20,7 +20,7 @@
 
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script> -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -75,7 +75,9 @@
         <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     </a>  
    
-
+{% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+{% endif %}
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
