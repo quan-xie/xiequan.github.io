@@ -17,7 +17,7 @@ authors:
   sal:
     name: Xiequan
     display_name: Xiequan
-    avatar: 'assets/images/avatar-sal.png'
+    avatar: 'assets/images/logo.png'
     email: i@xiequan.info
     web: https://xiequan.info
     twitter: https://twitter.com/quan_xie
@@ -58,7 +58,7 @@ adsense-data-ad-client: ""
 adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
