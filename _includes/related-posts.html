@@ -1,23 +1,54 @@
-<div class="related">
-  <h1 >{{ site.data.settings.related_posts }}</h1>
-  {% assign listed_posts_urls = page.url | split: ' ' %}
-  <ul class="related-posts">
-    {% for tag in page.tags %}
-      {% for mypost in site.tags[tag] limit:3 %}
-        {% if listed_posts_urls contains mypost.url %}
-        {% else %}
-          <li>
-            <h3>
-              <a href="{{ site.github.url }}{{ mypost.url }}">
-                {{ mypost.title }}
-                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ mypost.image.teaser }}">
-                <small>{{ mypost.date | date: "%B %-d, %Y" }}
-              </a>
-            </h3>
-          </li>
-          {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
-        {% endif %}
-      {% endfor %}
+<!-- Related Posts
+================================================== -->
+<div class="{% unless page.categories == empty %} related-posts {% endunless %}">  
+
+    {% unless page.categories == empty %}
+    <h2 class="text-center mb-4">Explore more like this</h2>
+    {% endunless %}
+    
+    <div class="d-flex justify-content-center align-items-center">
+    
+    <!-- Categories -->
+    {% assign sortedCategories = page.categories | sort %}
+    {% for category in sortedCategories %}
+    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>                
     {% endfor %}
-  </ul>
+
+    <!-- Tags -->  
+    {% assign sortedTags = page.tags | sort %}
+    {% for tag in sortedTags %}                
+    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>               
+    {% endfor %}
+
+    </div>
+
+    {% assign maxRelated = 3 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+    <div class="blog-grid-container">
+        {% for post in site.posts %}
+        
+            {% assign sameTagCount = 0 %}
+            {% assign commonTags = '' %}
+        
+            {% for category in post.categories %}
+            {% if post.url != page.url %}
+                {% if page.categories contains category %}
+                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                {% capture tagmarkup %} {{ category }} {% endcapture %}
+                {% assign commonTags = commonTags | append: tagmarkup %}
+                {% endif %}
+            {% endif %}
+            {% endfor %}
+        
+            {% if sameTagCount >= minCommonTags %}
+            {% include postbox.html %}
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+            {% endif %}
+            {% endif %}
+        
+        {% endfor %}
+        </div>        
 </div>

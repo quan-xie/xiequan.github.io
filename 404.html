@@ -1,13 +1,15 @@
 ---
 layout: default
-title: "404: Page not found"
-permalink: 404.html
+title: 404
+permalink: /404.html
 ---
-
-<div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-
-  {% include google-ads.html %} 
-
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}/">Head back home</a> to try finding it again, or search for it on the <a href="{{ site.baseurl }}/menu/writing.html">archives page</a>.</p>
+<style>
+    .newsletter, .footer {
+        display:none;
+    }
+</style>
+<div class="text-center">
+<h1 class="mt-5"><span class="badge badge-dark font-weight-normal">404</span></h1>
+<h1 class="display-1 mt-4 mb-4"> Page not found!</h1>
+<p>Please use the search bar from the bottom left or visit our <a href="{{site.baseurl}}/">homepage</a>!</p>
 </div>
