@@ -6,10 +6,10 @@ title: Home
 <!-- Posts Index
 ================================================== -->
 <div class="blog-grid-container">
+    {% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+     {% endif %}
     {% for post in paginator.posts %}
-     {% if site.adsense == "enabled" %}
-     {% include adsense-under-header.html %}
-      {% endif %}
       {% include postbox.html %}
     {% endfor %}
 </div>
