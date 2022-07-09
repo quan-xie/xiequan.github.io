@@ -7,7 +7,10 @@ title: Home
 ================================================== -->
 <div class="blog-grid-container">
     {% for post in paginator.posts %}
-        {% include postbox.html %}
+     {% if site.adsense == "enabled" %}
+     {% include adsense-under-header.html %}
+      {% endif %}
+      {% include postbox.html %}
     {% endfor %}
 </div>
 
