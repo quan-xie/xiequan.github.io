@@ -32,9 +32,13 @@ post_class: post-template
 
 <!-- Featured Image -->
 {% include featured-image.html %}
-{% if site.adsense == "enabled" %}
-{% include adsense-under-header.html %}
-{% endif %}
+
+<div max_width="690px">
+    {% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+    {% endif %}
+</div>
+
 <!-- Content -->
 {% include article.html %}
 
