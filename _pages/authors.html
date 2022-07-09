@@ -10,7 +10,7 @@ comments: false
         <div class="row">
             <div class="wrapavname col-md-3 text-center">
                 {% if author[1].gravatar %}
-                <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author[1].gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                <!-- <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author[1].gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}"> -->
                 {% else %}
                 <img  class="author-thumb" src="{{site.baseurl}}/{{ author[1].avatar }}" alt="{{ author.display_name }}">
                 {% endif %}
