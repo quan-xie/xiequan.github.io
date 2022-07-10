@@ -19,15 +19,7 @@
 </head>
 
 {% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script> -->
-<!-- <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', '{{site.google_analytics}}');
-</script> -->
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -77,11 +69,11 @@
 
     <!-- Site Tag
     ================================================== -->
-    <!-- {% if page.url == '/' %}
+    {% if page.url == '/' %}
         <p class="sitetag">
             {{ site.description }}
         </p>
-    {% endif %} -->
+    {% endif %}
 
     <!-- Content
     ================================================== -->
