@@ -21,13 +21,13 @@
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script> -->
-<script>
+<!-- <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', '{{site.google_analytics}}');
-</script>
+</script> -->
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -52,8 +52,7 @@
         <h3>Navigation</h3>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/authors">Contributors <span class="badge badge-primary">new</span></a></li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>      
+        <li><a href="{{ site.baseurl }}/authors">Contributors <span class="badge badge-primary">new</span></a></li>  
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
     </ul>   
 </nav>
