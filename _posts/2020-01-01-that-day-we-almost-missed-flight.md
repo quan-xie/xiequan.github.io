@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "That day when we almost missed our flight"
-author: sal
+author: xiequan
 categories: [ Travel, Lifestyle ]
 image: assets/images/17.jpg
 ---

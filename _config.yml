@@ -14,9 +14,9 @@ email: i@xiequan.info
 
 # Authors
 authors:
-  sal:
-    name: Xiequan
-    display_name: Xiequan
+  xiequan:
+    name: xiequan
+    display_name: xiequan
     avatar: 'assets/images/logo.png'
     email: i@xiequan.info
     web: https://xiequan.info

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Observer - National Gallery of Art, Washington, United States"
-author: sal
+author: xiequan
 categories: [ Lifestyle ]
 image: assets/images/1.jpg
 ---
