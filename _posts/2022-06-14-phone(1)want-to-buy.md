@@ -5,6 +5,7 @@ author: xiequan
 categories: [ Lifestyle ]
 tags: [ Phone(1) ]
 image: https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/Rectangle_38.webp
+rating: 4.5
 ---
 ![video](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/phone1.mp4) 
 ![white](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/phone1-white.webp) 
