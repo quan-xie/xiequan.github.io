@@ -2,7 +2,7 @@
 layout: post
 title:  "How Credit Card Network Work"
 author: xiequan
-categories: [ Finance ]
+categories: [ Lifestyle ]
 tags: [ Finance ]
 image: [assets/images/2.jpg](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/how_visa_and_ma_work.png)
 rating: 4.5
