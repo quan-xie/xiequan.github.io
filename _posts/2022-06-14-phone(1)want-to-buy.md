@@ -15,8 +15,8 @@ border="0"
 frameborder="no" 
 framespacing="0" 
 allowfullscreen="true" 
-height="100%"  
-width=800> 
+height=600 
+width="100%"> 
 </iframe>
 ![white](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/phone1-white.webp) 
 ![black](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/phone1-black.webp) 
