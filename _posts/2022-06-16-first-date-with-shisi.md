@@ -13,8 +13,7 @@ image: https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/20220716_184
 第一次单独见面，有点紧张不好意思！没有拍照片，希望下次能够一起合影！    
 
 </center>
-<div align=center>
 
 ![address](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/image_2022-07-16_21-37-50.png) 
 
-</div>
+
