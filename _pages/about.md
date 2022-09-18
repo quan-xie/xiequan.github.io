@@ -4,8 +4,12 @@ title: A programmer born in 1991
 permalink: /about
 comments: false
 ---
-### 90'后野生程序员
-### 联系我：
-- Email: i@xiequan.info
-- Github: https://github.com/quan-xie
 ![white](https://blog-1251121783.cos.ap-shanghai.myqcloud.com/2022/07/%E5%9C%9F%E6%8B%A8%E9%BC%A0.png) 
+### 联系我：
+- Email : i@xiequan.info
+- Github : https://github.com/quan-xie
+- Twitter : https://twitter.com/quan_xie
+
+### 关于我
+- 湖南籍90'后野生程序员
+- Golang程序员
