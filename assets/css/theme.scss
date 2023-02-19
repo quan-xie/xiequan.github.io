@@ -1,13 +1,14 @@
 ---
 
 ---
-
-$brown: #B59F62;
-$teal: #40FFDC;
-$black: #111;
-$primary: $teal;
-$dark:    $black;
-$enable-rounded: false;
+{
+    $brown: #B59F62;
+    $teal: #40FFDC;
+    $black: #111;
+    $primary: $teal;
+    $dark:    $black;
+    $enable-rounded: false;
+}
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
@@ -417,8 +418,8 @@ img, img:hover {
 
 .entry-adsense {  
     width:728px;  
-    height:90px;
     max-width: 100%;
+    height: 60px;
     max-height: 100%;
     text-align:center;
     margin-left:auto;
